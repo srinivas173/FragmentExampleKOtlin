@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         frag1.text = "fragment1"
         frag2.text = "fragment2"
 
+
         frag2.setOnClickListener {
 
         val fragmentTwo = FragmentTwo()
