@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val frag1 = findViewById<TextView>(R.id.text1)
         val frag2 = findViewById<TextView>(R.id.text)
 
+
         frag1.text = "fragment1"
         frag2.text = "fragment2"
 
