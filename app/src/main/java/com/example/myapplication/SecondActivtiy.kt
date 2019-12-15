@@ -10,8 +10,8 @@ class SecondActivtiy : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second_activtiy)
 
-        val bundle:Bundle? = intent.extras
-        val msg =bundle!!.getString("user name")
+        val bundle: Bundle? = intent.extras
+        val msg = bundle!!.getString("user name")
 
         val tex = findViewById<TextView>(R.id.text)
         tex.text = msg

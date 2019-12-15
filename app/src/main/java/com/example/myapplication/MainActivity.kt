@@ -23,16 +23,18 @@ class MainActivity : AppCompatActivity() {
 
         frag2.setOnClickListener {
 
-        val fragmentTwo = FragmentTwo()
+            val fragmentTwo = FragmentTwo()
             showFragment(fragmentTwo)
         }
 
-        frag1.setOnClickListener{
+        frag1.setOnClickListener {
             val firstFragment = FragmentOne()
             showFragment(firstFragment)
 
-            Toast.makeText(this@MainActivity,
-                "COMPUTER SCIENCE PORTAL", Toast.LENGTH_LONG).show()
+            Toast.makeText(
+                this@MainActivity,
+                "COMPUTER SCIENCE PORTAL", Toast.LENGTH_LONG
+            ).show()
         }
 
     }
